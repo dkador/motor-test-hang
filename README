@@ -1,0 +1,17 @@
+Note: for this you'll have to be able to connect to a mongo replica set.
+
+Pretty simple. First run
+
+    pip install -r requirements.txt to set up your virtualenv (recommended to use a fresh virtualenv)
+
+Then run
+
+    python nonhanging.py
+
+to make sure that works properly.
+
+Then run
+
+    python hanging.py
+
+to see how that hangs (or at least it does on my machine!)
