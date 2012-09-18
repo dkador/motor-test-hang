@@ -1,0 +1,8 @@
+*.pyc
+error.log
+*.swp
+*.swo
+.venv
+*~
+.DS_Store
+.idea
